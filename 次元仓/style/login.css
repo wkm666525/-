@@ -1,0 +1,72 @@
+html,body,p,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,
+form,input,textarea,select,option,b,i,strong,u,nav,header,
+footer,aside,section,article{margin:0;padding:0;}
+ul,li,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6,i,em,strong,b,n{font-size:100%;font-style:normal;font-weight:normal;}
+
+/*兼容性*/
+fieldset,img{border:0 none;display:block;}
+input,button{border:0 none;background:transparent;}
+table,td{border-collapse:collapse;/*边线重叠*/
+    border-spacing:0;}
+:focus{outline:none;}/*获得焦点的篮框*/
+
+div{display: block;}
+
+/*超链接*/
+a{color:#333;text-decoration:none;transition:all 1s ease;}
+a:link{color:#333;text-decoration:none;}
+a:visited{color:#333;text-decoration:none;}
+a:hover{color:#f01e1e;text-decoration:underline;}
+a:active{color:#333;text-decoration:none;}
+
+body{font-family:"微软雅黑",arial;color:#333;font-size:12px;}
+.clear{clear:both;min-height: unset;float: unset;}
+/*头部*/
+#top{width: 1040px;height: 90px;margin: 0 auto;}
+#top a{text-decoration: none;}
+#top a img{width: 146px;height: 60px;display: block;float: left;margin: 20px 0 0 5px;border:none;}
+#top .line{width: 1px;height: 29px;background: #333;float: left;margin: 50px 18px 0;}
+#top .top_text{display: block;width: 88px;height: 29px;font-size:22px;color:#333;margin-top:50px;float: left; font-weight: 400;}
+
+/*中间*/
+#bj{width: 100%;height: 670px;background: url(../images/login_bg.jpg) no-repeat top;}
+#bj .content{width: 1040px;height: 100%;margin: 0 auto;}
+#bj .content .login_box{width: 390px;height: 525px;float: right;margin: 70px 20px 0 0;background: #fff;box-shadow: 0 0 15px 
+rgba(0, 0, 0, 0.3);opacity: .87;}
+#bj .content .login_box .commn_login{display: block;padding:0 45px;}
+#bj .content .login_box .commn_login li p{display: block;margin-top:24px;font-size: 20px;color:#333;}
+#bj .content .login_box .commn_login li:nth-child(2){margin-top:24px; }
+#bj .content .login_box .commn_login li .user_logo{display: block;width: 42px;height: 42px;background: #d3d3d3 url(../images/user_icon.png) no-repeat 50%;border-radius: 4px 0 0 4px;float:left;}
+#bj .content .login_box .commn_login li .ph{display: block;width: 256px;height: 42px;padding:10px;border:1px solid #d3d3d3;font-size:16px;border-radius: 0 4px 4px 0;float:left;font-weight: 400;box-sizing: border-box;}
+#bj .content .login_box .commn_login li:nth-child(3){margin-top:20px; }
+#bj .content .login_box .commn_login li .pwd_logo{display: block;width: 42px;height: 42px;background: #d3d3d3 url(../images/pwd_icon.png) no-repeat 50%;border-radius: 4px 0 0 4px;float:left;}
+#bj .content .login_box .commn_login li .pwd{display: block;width: 256px;height: 42px;padding:10px;border:1px solid #d3d3d3;font-size:16px;border-radius: 0 4px 4px 0;float:left;font-weight: 400;box-sizing: border-box;}
+#bj .content .login_box .commn_login li:nth-child(4){margin-top:20px; }
+#bj .content .login_box .commn_login li .code_font{font-size:16px;line-height:42px;color:#666;float:left;}
+#bj .content .login_box .commn_login li .code_input{display: block;width: 110px;height: 42px;padding:10px;font-size:16px;border:1px solid #d3d3d3;
+border-radius: 4px;margin-left:18px;float:left; box-sizing:border-box;}
+#bj .content .login_box .commn_login li:nth-child(4) img{border:none;margin-left:18px;float: left; }
+#bj .content .login_box .commn_login li:nth-child(5){margin-top:20px; }
+#bj .content .login_box .commn_login li:nth-child(5) input{font-weight: 400;float: left;}
+#bj .content .login_box .commn_login li .remember{font-size:12px;color:#666;margin: -3px 0 0 10px;float: left;}
+#bj .content .login_box .commn_login li:nth-child(5) a{float: right;font-size:12px;color:#666;margin: -3px 0 0 10px;}
+#bj .content .login_box .commn_login li:nth-child(6){margin-top:20px; }
+#bj .content .login_box .commn_login li .login_bth{display: block;width: 160px;height: 42px;font-weight: 700;line-height: 42px;border-radius: 4px;background-color:#ed3f3f;float: left;color:#fff;text-align: center;box-sizing: border-box;text-decoration: none;letter-spacing: 5px; font-size: 16px;}
+#bj .content .login_box .commn_login li .reg_bth{display: block;width:126px;height: 42px;color:#3c3c3c;background: #fff;
+border:1px solid #ed3f3f;border-radius: 4px;float: left;text-decoration: none;box-sizing: border-box;margin-left: 14px;font-size:16px;line-height: 42px;text-align: center;font-weight: 700;}
+#bj .content .login_box .commn_login .tb_login{margin-top: 20px;font-size:14px;line-height: 16px;color:#666;display: block;}
+#bj .content .login_box .commn_login .tb_login span{font-size:16px;margin-right: 5px;color:#666;line-height: 16px;float: left;}
+#bj .content .login_box .commn_login .tb_login .quick_login{font-size:14px;color:#666;margin-left:7px;float: left; }
+#bj .content .login_box .commn_login .tb_login .quick_login a{color:#333;text-decoration: none;}
+#bj .content .login_box .commn_login .tb_login .quick_login .wb_login{width: 18px;height: 14px;background-image: url(../images/weibo_icon.png);margin: 0 5px;float: left;}
+#bj .content .login_box .commn_login .tb_login .quick_login .qq_login{width: 13px;height: 14px;background-image: url(../images/qq_icon.png);margin: 0 5px 0 9px;float: left;}
+#bj .content .login_box .commn_login .tb_login .quick_login .wx_login{width: 17px;height: 14px;background-image: url(../images/wechat_icon.png);margin: 0 5px 0 9px;float: left;}
+#bj .content .login_box .commn_login .line{width: 390px;height: 1px;background: #ccc;margin: 24px 0 24px -45px;display: block;}
+#bj .content .login_box .commn_login .tips{margin-top:20px;font-size:14px;color:#666; }
+
+/*底部*/
+#footer{height: 66px;border:1px solid #fcfcfc;padding:20px 0 10px;}
+#footer .content{width: 1040px;height: 46px;margin: 0 auto;text-align: center;}
+#footer .content .copy{width: 1040px;height: 16px;color: #aaa;font-size:12px;padding:10px 0 20px 0;margin-top:20px; }
+#footer .content .copy a{color:#333;text-decoration: none;}
